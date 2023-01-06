@@ -1,0 +1,12 @@
+E:\1- freelancing path\Practical Work After Courses\Eventsocity\Eventsocity.Domain\bin\Debug\net7.0\Eventsocity.Domain.deps.json
+E:\1- freelancing path\Practical Work After Courses\Eventsocity\Eventsocity.Domain\bin\Debug\net7.0\Eventsocity.Domain.dll
+E:\1- freelancing path\Practical Work After Courses\Eventsocity\Eventsocity.Domain\bin\Debug\net7.0\Eventsocity.Domain.pdb
+E:\1- freelancing path\Practical Work After Courses\Eventsocity\Eventsocity.Domain\obj\Debug\net7.0\Eventsocity.Domain.csproj.AssemblyReference.cache
+E:\1- freelancing path\Practical Work After Courses\Eventsocity\Eventsocity.Domain\obj\Debug\net7.0\Eventsocity.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\1- freelancing path\Practical Work After Courses\Eventsocity\Eventsocity.Domain\obj\Debug\net7.0\Eventsocity.Domain.AssemblyInfoInputs.cache
+E:\1- freelancing path\Practical Work After Courses\Eventsocity\Eventsocity.Domain\obj\Debug\net7.0\Eventsocity.Domain.AssemblyInfo.cs
+E:\1- freelancing path\Practical Work After Courses\Eventsocity\Eventsocity.Domain\obj\Debug\net7.0\Eventsocity.Domain.csproj.CoreCompileInputs.cache
+E:\1- freelancing path\Practical Work After Courses\Eventsocity\Eventsocity.Domain\obj\Debug\net7.0\Eventsocity.Domain.dll
+E:\1- freelancing path\Practical Work After Courses\Eventsocity\Eventsocity.Domain\obj\Debug\net7.0\refint\Eventsocity.Domain.dll
+E:\1- freelancing path\Practical Work After Courses\Eventsocity\Eventsocity.Domain\obj\Debug\net7.0\Eventsocity.Domain.pdb
+E:\1- freelancing path\Practical Work After Courses\Eventsocity\Eventsocity.Domain\obj\Debug\net7.0\ref\Eventsocity.Domain.dll
