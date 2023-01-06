@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "Eventsocity.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Eventsocity.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Eventsocity.Domain.dll": {}
+        }
+      },
+      "Eventsocity.Persistence/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Eventsocity.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Eventsocity.Persistence.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Eventsocity.Persistence.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Eventsocity.Domain/1.0.0": {
+      "type": "project",
+      "path": "../Eventsocity.Domain/Eventsocity.Domain.csproj",
+      "msbuildProject": "../Eventsocity.Domain/Eventsocity.Domain.csproj"
+    },
+    "Eventsocity.Persistence/1.0.0": {
+      "type": "project",
+      "path": "../Eventsocity.Persistence/Eventsocity.Persistence.csproj",
+      "msbuildProject": "../Eventsocity.Persistence/Eventsocity.Persistence.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Eventsocity.Domain >= 1.0.0",
+      "Eventsocity.Persistence >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\vip\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\1- freelancing path\\Practical Work After Courses\\Eventsocity\\Eventsocity.Application\\Eventsocity.Application.csproj",
+      "projectName": "Eventsocity.Application",
+      "projectPath": "E:\\1- freelancing path\\Practical Work After Courses\\Eventsocity\\Eventsocity.Application\\Eventsocity.Application.csproj",
+      "packagesPath": "C:\\Users\\vip\\.nuget\\packages\\",
+      "outputPath": "E:\\1- freelancing path\\Practical Work After Courses\\Eventsocity\\Eventsocity.Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\vip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "E:\\1- freelancing path\\Practical Work After Courses\\Eventsocity\\Eventsocity.Domain\\Eventsocity.Domain.csproj": {
+              "projectPath": "E:\\1- freelancing path\\Practical Work After Courses\\Eventsocity\\Eventsocity.Domain\\Eventsocity.Domain.csproj"
+            },
+            "E:\\1- freelancing path\\Practical Work After Courses\\Eventsocity\\Eventsocity.Persistence\\Eventsocity.Persistence.csproj": {
+              "projectPath": "E:\\1- freelancing path\\Practical Work After Courses\\Eventsocity\\Eventsocity.Persistence\\Eventsocity.Persistence.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
