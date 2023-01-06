@@ -13,6 +13,15 @@ builder.Services.AddSwaggerGen();
 //! [1]=> register the DbContext service
 builder.Services.AddDbContext<DataContext>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+//! [3]=> handle CORS origin problem 
+builder.Services.AddCors(opts => {
+    opts.AddPolicy("CorsPolicy", policy => {
+        policy.AllowAnyMethod()
+            .AllowAnyHeader()
+            .WithOrigins("http://localhost:3000");
+    });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -23,6 +32,9 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+//! [4]=> the CORS middleware after registering the CORS service
+app.UseCors("CorsPolicy");
 
 app.UseAuthorization();
 

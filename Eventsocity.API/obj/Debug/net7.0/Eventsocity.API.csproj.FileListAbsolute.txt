@@ -1,5 +1,4 @@
 E:\1- freelancing path\Practical Work After Courses\Eventsocity\Eventsocity.API\bin\Debug\net7.0\appsettings.Development.json
-E:\1- freelancing path\Practical Work After Courses\Eventsocity\Eventsocity.API\bin\Debug\net7.0\appsettings.json
 E:\1- freelancing path\Practical Work After Courses\Eventsocity\Eventsocity.API\bin\Debug\net7.0\Eventsocity.API.exe
 E:\1- freelancing path\Practical Work After Courses\Eventsocity\Eventsocity.API\bin\Debug\net7.0\Eventsocity.API.deps.json
 E:\1- freelancing path\Practical Work After Courses\Eventsocity\Eventsocity.API\bin\Debug\net7.0\Eventsocity.API.runtimeconfig.json
