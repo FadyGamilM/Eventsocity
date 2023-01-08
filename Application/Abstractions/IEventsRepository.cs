@@ -3,7 +3,6 @@ using Eventsocity.Application.Abstractions.Common;
 
 namespace Eventsocity.Application.Abstractions;
 
-public interface IEventsRepository
+public interface IEventsRepository: IGenericRepository<Event>
 {
-   Task<IEnumerable<Event>> GetAll();
 }

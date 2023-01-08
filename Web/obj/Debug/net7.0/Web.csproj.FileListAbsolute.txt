@@ -99,3 +99,5 @@ E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsoc
 E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\Web\bin\Debug\net7.0\Microsoft.Extensions.Logging.ApplicationInsights.dll
 E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\Web\bin\Debug\net7.0\System.Diagnostics.PerformanceCounter.dll
 E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\Web\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\Web\bin\Debug\net7.0\AutoMapper.dll
+E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\Web\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

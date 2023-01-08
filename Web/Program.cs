@@ -1,6 +1,7 @@
 using Eventsocity.API.Extensions;
 using Eventsocity.Application.UseCases.Events.QueryHandlers;
 using Eventsocity.Infrastructure.Extensions;
+using Eventsocity.Application.Extensions;
 using Eventsocity.Application.Abstractions;
 using Eventsocity.Infrastructure.Repositories;
 using MediatR;
@@ -10,9 +11,9 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.RegisterApiLayerServices();
+builder.Services.RegisterApplicationLayerServices();
 builder.Services.RegisterInfrastructureLayerServices();
 builder.Services.AddScoped<IEventsRepository, EventsRepository>();
-builder.Services.AddMediatR(typeof(GetEventsQueryHandler));
 builder.Services.AddCors(opts => {
    opts.AddPolicy("CorsPolicy", policy => {
       policy
