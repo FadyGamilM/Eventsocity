@@ -1,0 +1,17 @@
+E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\API\bin\Debug\net7.0\API.deps.json
+E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\API\bin\Debug\net7.0\API.dll
+E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\API\bin\Debug\net7.0\API.pdb
+E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\API\bin\Debug\net7.0\Application.dll
+E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\API\bin\Debug\net7.0\Domain.dll
+E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\API\bin\Debug\net7.0\Application.pdb
+E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\API\bin\Debug\net7.0\Domain.pdb
+E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\API\obj\Debug\net7.0\API.csproj.AssemblyReference.cache
+E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\API\obj\Debug\net7.0\API.GeneratedMSBuildEditorConfig.editorconfig
+E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\API\obj\Debug\net7.0\API.AssemblyInfoInputs.cache
+E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\API\obj\Debug\net7.0\API.AssemblyInfo.cs
+E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\API\obj\Debug\net7.0\API.csproj.CoreCompileInputs.cache
+E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\API\obj\Debug\net7.0\API.csproj.CopyComplete
+E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\API\obj\Debug\net7.0\API.dll
+E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\API\obj\Debug\net7.0\refint\API.dll
+E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\API\obj\Debug\net7.0\API.pdb
+E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\API\obj\Debug\net7.0\ref\API.dll

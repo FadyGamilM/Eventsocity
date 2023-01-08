@@ -2,7 +2,7 @@
 Eventsocity is a platform for grouping people one different events and activites.
 
 > ## Backend Architecture
-![](1-backend_architecture.png)
+![](AppArchitecture.png)
 #### API Project:
 - Responsible for receiving the HTTP requests and sending back the response to client apps.
 - Its the Presentation layer of the backend architecture. 

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "5Re7QcrLYY2PAk2JQ/ObO089QmB+YLcrGwhqq9eYA4mdJtDB2fx6zo6PBy60NLr2Wl5dfsb7Y67q0jUFMj8hAA==",
+  "success": true,
+  "projectFilePath": "E:\\1- freelancing path\\Practical Work After Courses\\Eventsocity-backend\\Eventsocity\\Application\\Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vip\\.nuget\\packages\\mediatr\\11.0.0\\mediatr.11.0.0.nupkg.sha512",
+    "C:\\Users\\vip\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\vip\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\vip\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
