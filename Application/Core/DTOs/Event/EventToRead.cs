@@ -2,7 +2,6 @@ namespace Eventsocity.Application.Core.DTOs.Event;
 
 public class EventToRead
 {
-
    public int Id {get; set;} 
    public string Title {get; set;}
    public string Description {get; set;}

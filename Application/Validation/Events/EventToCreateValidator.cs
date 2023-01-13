@@ -1,0 +1,19 @@
+using Eventsocity.Application.Core.DTOs.Event;
+using Eventsocity.Domain.Entities;
+using FluentValidation;
+
+namespace Eventsocity.Application.Validation.Events;
+
+// validate agains the Event class
+public class EventToCreateValidator: AbstractValidator<EventToCreate>
+{
+   public EventToCreateValidator()
+   {
+      RuleFor(x => x.Title).NotEmpty();
+      RuleFor(x => x.Description).NotEmpty();
+      RuleFor(x => x.Category).NotEmpty();
+      RuleFor(x => x.City).NotEmpty();
+      RuleFor(x => x.Venue).NotEmpty();
+      RuleFor(x => x.Date).NotEmpty();
+   }
+}
