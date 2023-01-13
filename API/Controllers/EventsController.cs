@@ -34,7 +34,7 @@ public class EventsController : ControllerBase
    }
 
    [HttpPost]
-   public async Task<IActionResult> CreateNewEvent([FromBody] Event eventEntity)
+   public async Task<IActionResult> CreateNewEvent([FromBody] EventToCreate eventEntity)
    {
       var command = new CreateEventCommand { newEvent = eventEntity };
       await _mediator.Send(command);

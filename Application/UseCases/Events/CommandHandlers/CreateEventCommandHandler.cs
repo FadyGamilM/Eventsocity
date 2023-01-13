@@ -13,7 +13,15 @@ public class CreateEventCommandHandler : IRequestHandler<CreateEventCommand>
    }
    public async Task<Unit> Handle(CreateEventCommand request, CancellationToken cancellationToken)
    {
-      await _repo.Create(request.newEvent);
+      var Event = new Event{
+         Title=request.newEvent.Title,
+         Category=request.newEvent.Category,
+         City=request.newEvent.City,
+         Venue=request.newEvent.Venue,
+         Date=request.newEvent.Date,
+         Description=request.newEvent.Description
+      };
+      await _repo.Create(Event);
       // return Unit object to inform the .Send() method in the API layer that you have finished the processing
       return Unit.Value;
    }

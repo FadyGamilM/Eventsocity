@@ -1,5 +1,6 @@
 using MediatR;
 using Eventsocity.Domain.Entities;
+using Eventsocity.Application.Core.DTOs.Event;
 
 namespace Eventsocity.Application.UseCases.Events.Commands;
 
@@ -7,5 +8,5 @@ namespace Eventsocity.Application.UseCases.Events.Commands;
 public class CreateEventCommand: IRequest
 {
    // we need the Event entitiy 
-   public Event newEvent {get; set;}
+   public EventToCreate newEvent {get; set;}
 }

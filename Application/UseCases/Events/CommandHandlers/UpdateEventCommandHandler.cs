@@ -10,11 +10,9 @@ namespace Eventsocity.Application.UseCases.Events.CommandHandlers;
 public class UpdateEventCommandHandler : IRequestHandler<UpdateEventCommand>
 {
    private readonly IEventsRepository _repo;
-   private readonly IMapper _mapper;
-   public UpdateEventCommandHandler(IEventsRepository repo, IMapper mapper)
+   public UpdateEventCommandHandler(IEventsRepository repo)
    {
       _repo = repo;
-      _mapper = mapper;
    }
 
    public async Task<Unit> Handle(UpdateEventCommand request, CancellationToken cancellationToken)
@@ -27,8 +25,15 @@ public class UpdateEventCommandHandler : IRequestHandler<UpdateEventCommand>
       }
       // <To Type>(from filled value entity)
       // (From entity which has values, to entitiy which also has values)
-      _mapper.Map(request.updatedEvent, foundEvent);
+      // _mapper.Map(request.updatedEvent, foundEvent);
+      
+      foundEvent.Title = request.updatedEvent.Title ?? foundEvent.Title;
+      foundEvent.Description = request.updatedEvent.Description ?? foundEvent.Description;
+      foundEvent.City = request.updatedEvent.City ?? foundEvent.City;
+      foundEvent.Venue = request.updatedEvent.Venue ?? foundEvent.Venue;
+      foundEvent.Category = request.updatedEvent.Category ?? foundEvent.Category;
 
+      // save the event after update
       await _repo.Update(foundEvent, request.Id);
 
       return Unit.Value;
