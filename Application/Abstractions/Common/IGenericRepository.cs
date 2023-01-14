@@ -6,7 +6,7 @@ public interface IGenericRepository<T> where T : class
 
     Task<T> GetById(int id);
 
-    Task Create(T entity);
+    Task<bool> Create(T entity);
 
     Task Update (T entity, int id);
 

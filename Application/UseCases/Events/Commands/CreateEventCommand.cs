@@ -1,6 +1,7 @@
 using MediatR;
 using Eventsocity.Domain.Entities;
 using Eventsocity.Application.Core.DTOs.Event;
+using Eventsocity.Application.Core.ErrorHandling;
 
 namespace Eventsocity.Application.UseCases.Events.Commands;
 

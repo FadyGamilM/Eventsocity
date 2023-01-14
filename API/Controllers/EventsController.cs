@@ -4,33 +4,30 @@ using Eventsocity.Domain.Entities;
 using Eventsocity.Application.UseCases.Events.Queries;
 using Eventsocity.Application.UseCases.Events.Commands;
 using Eventsocity.Application.Core.DTOs.Event;
+using Eventsocity.Application.Core.ErrorHandling;
 
 namespace Eventsocity.API.Controllers;
 
-[ApiController]
 [Route("api/events")]
-public class EventsController : ControllerBase
+public class EventsController : BaseController
 {
-   private readonly IMediator _mediator;
-   public EventsController(IMediator mediator)
-   {
-      _mediator = mediator;
-   }
+   public EventsController(IMediator mediator):base(mediator)
+   {  }
 
    [HttpGet]
-   public async Task<ActionResult<IEnumerable<Event>>> GetEvents()
+   public async Task<IActionResult> GetEvents()
    {
       var query = new GetEventsQuery{};
       var response = await _mediator.Send(query);
-      return Ok(response);
+      return HandleErrors(response);
    }
 
    [HttpGet("{id:int}")]
-   public async Task<ActionResult<Event>> GetEventById(int id)
+   public async Task<IActionResult> GetEventById(int id)
    {
       var query = new GetEventByIdQuery{ eventId = (int) id };
       var response = await _mediator.Send(query);
-      return Ok(response);
+      return HandleErrors(response);
    }
 
    [HttpPost]

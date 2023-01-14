@@ -190,6 +190,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -210,14 +216,14 @@
         }
       }
     },
-    "E:\\1- freelancing path\\Practical Work After Courses\\Eventsocity-backend\\Eventsocity\\Infrastructure\\Infrastructure.csproj": {
+    "e:\\1- freelancing path\\Practical Work After Courses\\Eventsocity-backend\\Eventsocity\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\1- freelancing path\\Practical Work After Courses\\Eventsocity-backend\\Eventsocity\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "e:\\1- freelancing path\\Practical Work After Courses\\Eventsocity-backend\\Eventsocity\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "E:\\1- freelancing path\\Practical Work After Courses\\Eventsocity-backend\\Eventsocity\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "e:\\1- freelancing path\\Practical Work After Courses\\Eventsocity-backend\\Eventsocity\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\vip\\.nuget\\packages\\",
-        "outputPath": "E:\\1- freelancing path\\Practical Work After Courses\\Eventsocity-backend\\Eventsocity\\Infrastructure\\obj\\",
+        "outputPath": "e:\\1- freelancing path\\Practical Work After Courses\\Eventsocity-backend\\Eventsocity\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -334,8 +340,8 @@
               "E:\\1- freelancing path\\Practical Work After Courses\\Eventsocity-backend\\Eventsocity\\Domain\\Domain.csproj": {
                 "projectPath": "E:\\1- freelancing path\\Practical Work After Courses\\Eventsocity-backend\\Eventsocity\\Domain\\Domain.csproj"
               },
-              "E:\\1- freelancing path\\Practical Work After Courses\\Eventsocity-backend\\Eventsocity\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "E:\\1- freelancing path\\Practical Work After Courses\\Eventsocity-backend\\Eventsocity\\Infrastructure\\Infrastructure.csproj"
+              "e:\\1- freelancing path\\Practical Work After Courses\\Eventsocity-backend\\Eventsocity\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "e:\\1- freelancing path\\Practical Work After Courses\\Eventsocity-backend\\Eventsocity\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }

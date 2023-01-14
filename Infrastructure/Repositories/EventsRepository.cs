@@ -13,11 +13,11 @@ public class EventsRepository : IEventsRepository
       _context = context;
    }
 
-   public async Task Create(Event entity)
+   public async Task<bool> Create(Event entity)
    {
       // we will not touch the database while we adding an entitiy, we will work in-memory so we don't have to use the AddAsync method
       _context.Events.Add(entity);
-      await _context.SaveChangesAsync();
+      return await _context.SaveChangesAsync() > 0;
    }
 
    public async Task Delete(int Id)
