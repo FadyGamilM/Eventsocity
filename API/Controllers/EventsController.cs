@@ -1,10 +1,8 @@
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using Eventsocity.Domain.Entities;
 using Eventsocity.Application.UseCases.Events.Queries;
 using Eventsocity.Application.UseCases.Events.Commands;
 using Eventsocity.Application.Core.DTOs.Event;
-using Eventsocity.Application.Core.ErrorHandling;
 
 namespace Eventsocity.API.Controllers;
 

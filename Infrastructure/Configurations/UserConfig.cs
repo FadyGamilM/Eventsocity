@@ -1,8 +1,7 @@
 using Eventsocity.Domain.Entities;
 using Eventsocity.Infrastructure.Data;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata.Builders;
+
 
 namespace Eventsocity.Infrastructure.Configurations;
 

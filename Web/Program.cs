@@ -52,6 +52,7 @@ try
     await context.Database.MigrateAsync();
     // apply the seeding of user entity after you migrated your new tables [always after migration]
     await UserConfig.SeedUsers(context, userManager);
+    System.Console.WriteLine("Done Seeding Users Entity");
 }
 catch (Exception ex)
 {

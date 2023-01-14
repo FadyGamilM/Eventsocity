@@ -9,5 +9,8 @@ public static class ApiLayerExtensions
       services
          .AddControllers()
          .AddApplicationPart(typeof(EventsController).Assembly);
+      services
+         .AddControllers()
+         .AddApplicationPart(typeof(AccountsController).Assembly);
    }
 }
