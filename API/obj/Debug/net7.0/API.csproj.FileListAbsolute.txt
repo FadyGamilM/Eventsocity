@@ -15,3 +15,5 @@ E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsoc
 E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\API\obj\Debug\net7.0\refint\API.dll
 E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\API\obj\Debug\net7.0\API.pdb
 E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\API\obj\Debug\net7.0\ref\API.dll
+E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\API\bin\Debug\net7.0\Infrastructure.dll
+E:\1- freelancing path\Practical Work After Courses\Eventsocity-backend\Eventsocity\API\bin\Debug\net7.0\Infrastructure.pdb

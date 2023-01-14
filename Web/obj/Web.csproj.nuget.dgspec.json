@@ -33,6 +33,9 @@
             "projectReferences": {
               "E:\\1- freelancing path\\Practical Work After Courses\\Eventsocity-backend\\Eventsocity\\Application\\Application.csproj": {
                 "projectPath": "E:\\1- freelancing path\\Practical Work After Courses\\Eventsocity-backend\\Eventsocity\\Application\\Application.csproj"
+              },
+              "E:\\1- freelancing path\\Practical Work After Courses\\Eventsocity-backend\\Eventsocity\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "E:\\1- freelancing path\\Practical Work After Courses\\Eventsocity-backend\\Eventsocity\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }

@@ -1,4 +1,5 @@
 using Eventsocity.API.Extensions;
+using Eventsocity.API.Extensions;
 using Eventsocity.Application.UseCases.Events.QueryHandlers;
 using Eventsocity.Infrastructure.Extensions;
 using Eventsocity.Application.Extensions;
@@ -7,10 +8,14 @@ using Eventsocity.Infrastructure.Repositories;
 using MediatR;
 using Eventsocity.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using Eventsocity.Domain.Entities;
+using Eventsocity.Infrastructure.Configurations;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.RegisterApiLayerServices();
+builder.Services.RegisterIdentityServiceExtension(builder.Configuration);
 builder.Services.RegisterApplicationLayerServices();
 builder.Services.RegisterInfrastructureLayerServices();
 builder.Services.AddScoped<IEventsRepository, EventsRepository>();
@@ -41,8 +46,12 @@ try
 {
     // get the database context service withing the defined scope
     var context = services.GetRequiredService<DataContext>();
+    // get the user manager service 
+    var userManager = services.GetRequiredService<UserManager<User>>();
     // apply the pending migrations to our database
-    context.Database.Migrate();
+    await context.Database.MigrateAsync();
+    // apply the seeding of user entity after you migrated your new tables [always after migration]
+    await UserConfig.SeedUsers(context, userManager);
 }
 catch (Exception ex)
 {

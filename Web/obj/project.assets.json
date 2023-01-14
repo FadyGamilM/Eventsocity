@@ -3772,6 +3772,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Application": "1.0.0",
+          "Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.Mvc": "2.2.0",
           "Microsoft.AspNetCore.Mvc.NewtonsoftJson": "7.0.1"
         },
